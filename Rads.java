@@ -1,13 +1,20 @@
 class Rads extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Description 1.5.1 - 4
+  * @author: edwin_liu1
   */
   
   public void run() {
     
-    // start coding here
+    double doubledegrees;
+    double doubleradians;
+
+    doubledegrees = readDouble("Angle in degrees: ");
+
+    doubleradians = Math.toRadians(doubledegrees);
+
+    System.out.println("The angle in degrees is " + doubleradians);
     
   }
 }
