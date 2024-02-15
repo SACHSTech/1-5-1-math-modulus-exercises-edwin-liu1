@@ -8,17 +8,17 @@ class Minutes extends ConsoleProgram {
   public void run() {
     
     // start coding here
-    int intminutes;
-    int inthours;
-    int intdays;
-    int intremainder;
+    int intMinutes;
+    int intHours;
+    int intDays;
+    int intRemainder;
 
-    intminutes = readInt("Enter number of minutes: ");
+    intMinutes = readInt("Enter number of minutes: ");
 
-    intdays = intminutes / 1440;
-    inthours = (intminutes % 1440) / 60;
-    intremainder = (intminutes % 1440) % 60;
+    intDays = intMinutes / 1440;
+    intHours = (intMinutes % 1440) / 60;
+    intRemainder = (intMinutes % 1440) % 60;
 
-    System.out.println(intminutes + " minutes = " + intdays + " days, " + inthours + " hours, and " + intremainder + " minutes.");
+    System.out.println(intMinutes + " minutes = " + intDays + " days, " + intHours + " hours, and " + intRemainder + " minutes.");
   }
 }
