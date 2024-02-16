@@ -12,7 +12,7 @@ class FtoC extends ConsoleProgram {
 
     intFahrenheit = readInt("Enter temperature in Fahrenheit: ");
 
-    intCelsius = ( ( (double)intFahrenheit - 32) * 0.5556);
+    intCelsius = (int)( ( (double)intFahrenheit - 32) * 0.5556);
 
     System.out.println("The temperature in celsius is " + intCelsius);
     
