@@ -7,16 +7,16 @@ class Power extends ConsoleProgram {
   
   public void run() {
     
-    double doubleNumber;
-    double doublePower;
-    double doubleEndNumber;
+    double dblNumber;
+    double dblPower;
+    double dblEndNumber;
 
-    doubleNumber = readDouble("Enter a number you want powered: ");
-    doublePower = readDouble("Enter the power for the number: ");
+    dblNumber = readDouble("Enter a number you want powered: ");
+    dblPower = readDouble("Enter the power for the number: ");
 
-    doubleEndNumber = Math.pow(doubleNumber, doublePower);
+    dblEndNumber = Math.pow(dblNumber, dblPower);
 
-    System.out.println("your final number is " + doubleEndNumber);
+    System.out.println("your final number is " + dblEndNumber);
     
   }
 }

@@ -7,17 +7,17 @@ class AreaSin extends ConsoleProgram {
   
   public void run() {
     
-    double doubleSide1;
-    double doubleSide2;
-    double doubleAngle;
+    double dblSide1;
+    double dblSide2;
+    double dblAngle;
     double doubleArea;
 
     //reused code :3
-    doubleSide1 = readDouble("What is the first side of your triangle? ");
-    doubleSide2 = readDouble("What is the second side of your triangle? ");
-    doubleAngle = readDouble("What is the angle of your triangle? ");
+    dblSide1 = readDouble("What is the first side of your triangle? ");
+    dblSide2 = readDouble("What is the second side of your triangle? ");
+    dblAngle = readDouble("What is the angle of your triangle? ");
 
-    doubleArea = (doubleSide1 * doubleSide2 *  Math.sin( doubleAngle) ) / 2;
+    doubleArea = (dblSide1 * dblSide2 *  Math.sin (dblAngle) ) / 2;
 
     System.out.println("The area of your triangle is " + doubleArea);
 
