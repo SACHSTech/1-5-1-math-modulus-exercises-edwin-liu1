@@ -1,8 +1,8 @@
 class Km_to_Miles extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Description 1.5.1 - 8
+  * @author:edwin_liu1
   */
   
   public void run() {
