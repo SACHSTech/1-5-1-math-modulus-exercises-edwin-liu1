@@ -1,13 +1,20 @@
 class Circumference extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Description 1.5.1 - 3
+  * @author:edwin_liu1
   */
   
   public void run() {
     
-    // start coding here
+    double dblRadius;
+    double dblCircumference;
+
+    dblRadius = readDouble("Enter circle radius: ");
+
+    dblCircumference = 2 * (dblRadius * Math.PI);
+
+    System.out.println("The circumference is " + dblCircumference);
     
   }
 }
